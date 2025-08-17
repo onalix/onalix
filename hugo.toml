@@ -1,0 +1,4 @@
+baseURL = 'https://onalix.com/'
+languageCode = 'en-us'
+title = 'Onalix'
+theme = 'PaperMod'
