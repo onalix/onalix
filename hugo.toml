@@ -1,4 +1,52 @@
 baseURL = 'https://onalix.com/'
 languageCode = 'en-us'
-title = 'Onalix'
+title = "Ramon's blog"
 theme = 'PaperMod'
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+  block = [['$$', '$$']]
+  inline = [['$', '$']]
+[params]
+  math = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+  ShowToc = true
+  TocOpen = false
+[params.profileMode]
+  enabled = true
+  imageUrl = "/images/ramon_profile.jpg"
+  imageTitle = "Ramon N. Rayas"
+  imageWidth = 150
+  imageHeight = 150
+  title = "Ramon N. Rayas"
+  subtitle = "Machine Learning engineer."
+[[params.profileMode.buttons]]
+  name = "Continue reading"
+  url = "/posts" 
+[[params.profileMode.buttons]]
+  name = "Search archive"
+  url = "/archive"
+[[params.socialIcons]]
+  name = "Github"
+  url = "https://github.com/onalix"
+[[params.socialIcons]]
+  name = "Youtube"
+  url = "https://youtube.com/@onalix"
+[params.editPost]
+  URL = "https://github.com/onalix/onalix/tree/main/content"
+  Text = "Suggest changes"
+  appendFilePath = true
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
