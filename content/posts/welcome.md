@@ -4,7 +4,5 @@ draft = false
 title = 'Welcome to my blog'
 +++
 
-I'll be posting all my technical notes here. I also want to share things that I've learned over the years and things that I've been learning lately.
-
-
-
+I'll be posting all my technical notes here. I also want to share things that I've learned over the years and things 
+that I've been learning lately.
