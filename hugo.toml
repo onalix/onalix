@@ -1,8 +1,11 @@
 baseURL = 'https://onalix.com/'
 languageCode = 'en-us'
-title = "Ramon's blog"
+title = "Ramon's journal"
 theme = 'PaperMod'
+ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
 
+[markup.goldmark.renderer]
+  unsafe= true
 [markup.goldmark.extensions.passthrough]
   enable = true
 [markup.goldmark.extensions.passthrough.delimiters]
@@ -10,6 +13,8 @@ theme = 'PaperMod'
   inline = [['$', '$']]
 [params]
   math = true
+  defaultTheme = 'light'
+  disableThemeToggle = true
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
@@ -23,7 +28,7 @@ theme = 'PaperMod'
   imageWidth = 150
   imageHeight = 150
   title = "Ramon N. Rayas"
-  subtitle = "AI/ML researcher and practitioner."
+  subtitle = "Machine Learning engineer, data scientist, writer."
 [[params.profileMode.buttons]]
   name = "Continue reading"
   url = "/posts" 
@@ -33,11 +38,8 @@ theme = 'PaperMod'
 [[params.socialIcons]]
   name = "Github"
   url = "https://github.com/onalix"
-[[params.socialIcons]]
-  name = "Youtube"
-  url = "https://youtube.com/@onalix"
 [params.editPost]
-  URL = "https://github.com/onalix/onalix/tree/main/content"
+  URL = "https://github.com/onalix/onalix/blob/main/content"
   Text = "Suggest changes"
   appendFilePath = true
 [params.fuseOpts]

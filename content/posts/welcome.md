@@ -1,8 +1,10 @@
 +++
-date = '2025-08-29T20:09:39-06:00'
-draft = false
-title = 'Welcome to my blog'
+title = 'Welcome to my journal'
+date = '2026-04-19'
 +++
 
-I'll be posting all my technical notes here. I also want to share things that I've learned over the years and things 
-that I've been learning lately.
+I'm starting a new journey today. I'm committed to writing every day on this journal.
+I'll be sharing my opinionated takes on software engineering as well as some of my work
+on data science and Machine Learning. And every once in a while, I'll share personal insights and
+book reviews.
+
