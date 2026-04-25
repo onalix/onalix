@@ -28,7 +28,7 @@ ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
   imageWidth = 150
   imageHeight = 150
   title = "Ramon N. Rayas"
-  subtitle = "Machine Learning engineer, data scientist, writer."
+  subtitle = "ML engineer and data scientist."
 [[params.profileMode.buttons]]
   name = "Continue reading"
   url = "/posts" 
