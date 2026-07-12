@@ -1,0 +1,18 @@
+---
+title: "Ramon N. Rayas"
+description: "Data scientist"
+image: profile.png
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links:
+    - icon: github
+      text: GitHub
+      href: http://github.com/onalix
+    - icon: youtube
+      text: YouTube
+      href: http://youtube.com/@onalix
+---
+
+Start reading my [journal entries](journal.qmd).

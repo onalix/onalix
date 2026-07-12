@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+  keep-hidden: true
+  resources:
+    - CNAME
+website:
+  title: "Ramon's journal"
+  description: "Ramon N. Rayas"
+  site-url: https://onalix.com
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Journal"
+        href: journal.qmd
+      - icon: github
+        href: https://github.com/onalix
+      - icon: youtube
+        href: https://youtube.com/@onalix
+format:
+  html:
+    theme: litera
+    css: styles.css
