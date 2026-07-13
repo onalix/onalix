@@ -1,12 +1,11 @@
 project:
   type: website
   output-dir: _site
-  keep-hidden: true
   resources:
     - CNAME
 website:
   title: "Ramon's journal"
-  description: "Ramon N. Rayas"
+  description: "Data science"
   site-url: https://onalix.com
   navbar:
     right:
