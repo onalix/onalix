@@ -1,6 +1,6 @@
 ---
 title: "Ramon N. Rayas"
-description: "Data scientist"
+description: "AI research scientist"
 image: profile.png
 about:
   template: jolla
@@ -9,10 +9,9 @@ about:
   links:
     - icon: github
       text: GitHub
-      href: http://github.com/onalix
-    - icon: youtube
-      text: YouTube
-      href: http://youtube.com/@onalix
+      href: https://github.com/onalix
 ---
+
+The purpose of this journal is to explore machine learning algorithms and research ideas, and share some of my technical notes and personal projects.
 
 Start reading my [journal entries](journal.qmd).

@@ -5,7 +5,7 @@ project:
     - CNAME
 website:
   title: "Ramon's journal"
-  description: "Data science"
+  description: "AI research scientist"
   site-url: https://onalix.com
   navbar:
     right:
@@ -15,9 +15,8 @@ website:
         href: journal.qmd
       - icon: github
         href: https://github.com/onalix
-      - icon: youtube
-        href: https://youtube.com/@onalix
 format:
   html:
     theme: litera
     css: styles.css
+ 
