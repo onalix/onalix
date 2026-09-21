@@ -5,7 +5,7 @@ project:
     - CNAME
 website:
   title: "Ramon's journal"
-  description: "AI research scientist"
+  description: "ML scientist"
   site-url: https://onalix.com
   navbar:
     right:
